@@ -1,6 +1,6 @@
 # online-cv
 
-My CV as a single static page: **[lemmethink.xyz/online-cv](https://lemmethink.xyz/online-cv/)**
+My CV as a single static page: **[cv.magniff.dev](https://cv.magniff.dev)**
 
 It's one hand-written `index.html`: no build step, no framework, no dependencies
 beyond the JetBrains Mono web font (with a system monospace fallback).
@@ -21,7 +21,8 @@ Or just open `index.html` in a browser.
 
 ## Deploy
 
-GitHub Pages serves the `gh-pages` branch. `.nojekyll` makes Pages serve the
+GitHub Pages serves the `gh-pages` branch at `cv.magniff.dev` (see `CNAME`;
+DNS: `cv` CNAME → `magniff.github.io`). `.nojekyll` makes Pages serve the
 files as they are, without running Jekyll. To publish, push the same tree to
 `gh-pages`:
 
